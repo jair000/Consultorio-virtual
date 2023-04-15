@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sac{
+  color: gray;
+}
+
+.Register {
+  background-color: rgb(45, 126, 231);
+  height: 100vh;
+  color: #fff ;
+}
+
+.header-registro {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px 50px;
+  font-size: 2rem;
+  height: 12%;
+  overflow-y: hidden;
+}
+
+.logo img {
+  padding-top: 30px;
+  width: 210px;
+}
+
+.Container {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 110px;
+  margin-top: 5.5%;
+}
+
+input {
+  font-size: 14px;
+    color: #f7f7fa;
+    padding: 0.286em;
+    border: 1px solid #aeb0b5;
+    transition: border-color .2s,box-shadow .2s;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 30px;
+}
+
+input {
+  margin-bottom: 30px;
+  margin-top: 10px;
+  width: 450px;
+}
+
+.ingreso-flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 450px;
+}
+
+.btn-ingresar{
+  color: #fff;
+  background-color: #001F72;
+  margin-right: 50px;
+  width: 110px;
+  height: 30px;
+}
+
+.btn-register {
+  width: 110px;
+  height: 30px;
+  background-color: #0064C9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-re{
+  color: #fff;
+}

@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.registro {
+  background: url("/header.png");
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.header{
+  padding: 35px 70px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.header img {
+  min-width: 10%;
+  width: 230px;
+}
+
+.reserva{
+  margin-left: 62.5%;
+}
+
+.reserva img{
+  min-width: 10%;
+  height: 355px;
+}
+
+
+
+.btn-fixedwsp, .btn-fixedweb {
+  position: fixed;
+  width: 250px;
+  right: 17%;
+  background-color: #00CA31;
+  height: 6vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.7em;
+  color: #fff;
+  border-radius: 20px;
+  border: 3px solid #fff;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.btn-fixedweb{
+  bottom: 12%;
+}
+
+.btn-fixedwsp{
+  bottom: 23%;
+}
+
+/*? ------ SCROLL BAR ---------- */
+
+body::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+body::-webkit-scrollbar:vertical {
+  width:10px;
+}
+
+body::-webkit-scrollbar-button:increment,body::-webkit-scrollbar-button {
+  display: none;
+} 
+
+body::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #000;
+  border-radius: 20px;
+  border: 1px solid #f1f2f3;
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 10px;  
+}
+
+/*? -------------------------------------- */
