@@ -51,7 +51,6 @@ form{
 
 input {
   background: transparent;
-  margin-bottom: 30px;
   margin-top: 29px;
   width: 83%;
   height: 100%;
@@ -64,8 +63,18 @@ input {
 
 .lbl-dni {
   position: absolute;
-  top: 313px;
+  top: 41.3%;
   left: 113px;
+  width: 450px;
+  border-bottom: 1px solid #c7c7c7;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.lbl-pass {
+  position: absolute;
+  top: 50.5%;
+  left: 112.5px;
   width: 450px;
   border-bottom: 1px solid #c7c7c7;
   pointer-events: none;
@@ -78,9 +87,22 @@ input {
   left: 0;
   bottom: -1px;
   width: 100%;
-  border-bottom: 3px solid #b36363;
+  border-bottom: 3px solid #161313;
   overflow: hidden;
   transform: translateX(-100%);
+  transition: all .3s ease;
+}
+
+.txt-dni{
+  position: absolute;
+  transition: all .3s ease;
+  color: #fff;
+}
+
+input:focus + .lbl-dni .txt-dni{
+  transform: translateY(-150%);
+  font-size: 14px;
+  color: gold;
 }
 
 .ingreso-flex{
