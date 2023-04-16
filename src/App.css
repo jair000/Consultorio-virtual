@@ -5,7 +5,7 @@
   overflow-x: hidden;
 }
 
-.registro {
+.Container1 {
   background: url("/header.png");
   background-repeat: no-repeat;
   min-height: 100vh;
@@ -24,13 +24,30 @@
   width: 230px;
 }
 
+.reserva-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+}
+
 .reserva{
-  margin-left: 62.5%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  margin-right: 16%;
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+  .reserva-container{
+    justify-content: center;
+  }
 }
 
 .reserva img{
-  min-width: 10%;
-  height: 355px;
+  width: 300px;
+  height: 55%;
 }
 
 
