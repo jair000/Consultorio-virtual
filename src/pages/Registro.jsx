@@ -26,19 +26,21 @@ export function Registro() {
         <p>Bienvenido, ingrese sus datos para poder <br /> reservar su cita:</p>
 
         <form>
-          <input type="text" maxLength={8} required/>
-          <br />
           <label className='lbl-dni'>
-            <span className='txt-dni'>Ingrese su dni </span>
+            <span className='txt-dni'>Ingrese su dni: </span>
           </label>
           <br />
-          <input type="password" minLength={6} required/>
+          <input type="text" maxLength={8} required className='inp-dni' placeholder='XXXXXXXX'/>
           <br />
-          <label className='lbl-pass'>Ingrese su contraseña</label>
+          <label className='lbl-pass'>
+            <span className='txt-pass'>Ingrese su contraseña:</span>
+          </label>
+          <br />
+          <input type="password" minLength={6} required className='inp-pass'/>
           <br />
           <div className='ingreso-flex'>
-          <button className='btn-ingresar'>Ingresar</button>
-          <Link to={"#"}>Recupera Contraseña</Link>
+          <Link to={"/main"} className='btn-ingresar'>Ingresar</Link>
+          <Link to={"#"} className='btn-recPass'>Recupera Contraseña</Link>
           </div>
         </form>
 
