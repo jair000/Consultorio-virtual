@@ -15,7 +15,7 @@ export function Principal() {
       <div className="reserva-container">
       <div className="reserva"><img src="/reserva.png" alt="reserva" /></div>
         <Link to={"#"} className="btn-fixedwsp">Vía Whatsapp <FontAwesomeIcon icon={faWhatsapp} /> </Link>
-        <Link to={"/registro-virtual"} className="btn-fixedweb">Vía Online <FontAwesomeIcon icon={faMagnifyingGlass} /></Link>
+        <Link to={"/sesion-virtual"} className="btn-fixedweb">Vía Online <FontAwesomeIcon icon={faMagnifyingGlass} /></Link>
       </div>
       </div>  
     
