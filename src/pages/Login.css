@@ -1,40 +1,15 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-.sac{
-  color: gray;
-}
-
-.Login {
+.login {
   background-color: rgb(45, 126, 231);
   height: 100vh;
   color: #fff ;
 }
 
-.header-registro {
-  background: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 0px 50px;
-  font-size: 2rem;
-  height: 12%;
-  overflow-y: hidden;
-}
-
-.logo img {
-  padding-top: 30px;
-  width: 210px;
-}
-
 .Container {
   font-family: Arial, Helvetica, sans-serif;
-  margin-left: 9.5%;
-  margin-top: 70px;
-  margin-right: 9.5%;
+  margin-left: 12%;
+  margin-top: 90px;
+  margin-right: 12%;
 }
 
 h1 {
@@ -47,76 +22,60 @@ p {
 
 form{
   overflow: hidden;
+  margin-top: 30px;
 }
 
 input {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 350px;
   background: transparent;
-  margin-top: 29px;
-  width: 100%;
-  height: 100%;
-  border: none;
-  color: #f7f7fa;
-  padding: 0.286em;
+  outline: 0;
+  border-color: #fff;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0 ;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  font-size: 16px;
+}
+
+input:focus{
+  outline: 0;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input::placeholder {
+  color: #c7bebe;
   font-size: 14px;
-  outline: none;
-}
-
-.lbl-dni {
-  position: absolute;
-  top: 39.2%;
-  left: 113px;
-  width: 450px;
-  border-bottom: 1px solid #c7c7c7;
-  pointer-events: none;
-  overflow: hidden;
-}
-
-.lbl-pass {
-  position: absolute;
-  top: 48.2%;
-  left: 112.5px;
-  width: 450px;
-  border-bottom: 1px solid #c7c7c7;
-  pointer-events: none;
-  overflow: hidden;
 }
 
 .ingreso-flex{
-  display: flex;
-  align-items: center;
-  padding-top: 30px;
   width: 100%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .btn-ingresar{
+  margin-top: 15px;
   color: #fff;
   background-color: #001F72;
-  margin-right: 50px;
   width: 110px;
   height: 30px;
-  font-size: 14px;
+  justify-content: center;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
-.btn-recuperarPass {
-  width: 100%;
-  height: 100%;
-  color: #c7c7c7;
-  text-decoration: underline;
-}
-
-.btn-register {
+.btn-re{
+  color: #fff;
   width: 110px;
   height: 30px;
   background-color: #0064C9;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.btn-re{
-  color: #fff;
 }

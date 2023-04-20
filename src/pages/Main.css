@@ -4,36 +4,6 @@
   box-sizing: border-box;
 }
 
-.sac-contain {
-  display: flex;
-}
-
-.sac{
-  color: gray;
-  margin-right: 20px;
-}
-
-.Main {
-  background-color: #fff;
-  height: 100vh;
-  color: #fff ;
-}
-
-.header-registro {
-  background: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 0px 50px;
-  font-size: 2rem;
-  height: 12%;
-  overflow-y: hidden;
-  border-top: 0;
-  border-bottom: 1px solid #d2d2d2;
-  max-width: initial!important;
-}
-
-.logo img {
-  padding-top: 30px;
-  width: 210px;
+.bars {
+  margin-left: 20px;
 }

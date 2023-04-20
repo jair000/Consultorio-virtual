@@ -14,14 +14,10 @@ export function Principal() {
       </div>
       <div className="reserva-container">
       <div className="reserva"><img src="/reserva.png" alt="reserva" /></div>
-        <Link to={"#"} className="btn-fixedwsp">Vía Whatsapp <FontAwesomeIcon icon={faWhatsapp} /> </Link>
-        <Link to={"/sesion-virtual"} className="btn-fixedweb">Vía Online <FontAwesomeIcon icon={faMagnifyingGlass} /></Link>
+        <Link to={"https://wa.me/932206837"} className="btn-fixedwsp">Vía Whatsapp <FontAwesomeIcon icon={faWhatsapp} /> </Link>
+        <Link to={"/login-virtual"} className="btn-fixedweb">Vía Online <FontAwesomeIcon icon={faMagnifyingGlass} /></Link>
       </div>
       </div>  
-    
-      <div className="cargos">
-        <h3>Contamos con un grupo de expertos profesionales de la salud a tu disposición!</h3>
-      </div>
     </div>
     )
 }
